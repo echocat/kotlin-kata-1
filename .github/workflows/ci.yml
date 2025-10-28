@@ -5,8 +5,8 @@ on:
   pull_request:
 
 jobs:
-  ci:
-    name: Continues Integration
+  tets:
+    name: Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
