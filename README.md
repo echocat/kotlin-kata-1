@@ -29,7 +29,7 @@ You have to implement an abstracted and simple library system.
    **BUT:** You are not allowed to do [pair programming](https://en.wikipedia.org/wiki/Pair_programming).
    **AND** If you have already done this kata before to have a look at your previous implementation.
 
-4. Develop your code based at least on Kotlin language level 1.7.
+4. Develop your code based at least on Kotlin language level 2.2.
 
 5. Keep the following priorities in mind while you implementing - in the mentioned order:
    1. Code quality
@@ -108,7 +108,7 @@ You have to implement an abstracted and simple library system.
 
 ## FAQ
 
-##### How to run your application?
+### How to run your application?
 
 1. By IDE:<br/>
    Just click with right mouse on the [`MainApp`](src/main/kotlin/org/echocat/kata/kotlin/part1/MainApp.kt) class and
@@ -117,14 +117,14 @@ You have to implement an abstracted and simple library system.
    ```bash
    ./gradlew run
    ```
-##### How to run your tests?
+### How to run your tests?
 
 1. By IDE:<br/>
    Just click with right mouse on the root of your project tree and click on
    then on _Run all tests_ or _Debug all tests_.
 2. By command line:
    ```bash
-   ./mvnw test
+   ./gradlew test
    ```
 
 ## License
