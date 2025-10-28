@@ -18,7 +18,7 @@ jobs:
           java-version: '25'
           distribution: 'temurin'
           cache: gradle
-          cache-dependency-path: build.gradle
+          cache-dependency-path: build.gradle.kts
 
       - name: Tests
         run: ./gradlew test
